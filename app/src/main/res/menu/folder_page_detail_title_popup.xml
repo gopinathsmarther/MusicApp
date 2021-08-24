@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+        android:id="@+id/play_next"
+        android:title="Play next"/>
+
+    <item
+        android:id="@+id/add_to_playing_queue"
+        android:title="Add to playing queue"/>
+    <item
+        android:id="@+id/add_to_playlist"
+        android:title="Add to playlist..."/>
+
+    <item
+        android:id="@+id/sort_order"
+        android:title="Sort Order"/>
+
+
+
+    <item
+        android:id="@+id/add_to_home_screen"
+        android:title="Add to Home Screen"/>
+
+
+
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"/>
+
+</menu>

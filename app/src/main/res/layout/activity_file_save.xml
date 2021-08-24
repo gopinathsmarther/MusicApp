@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300sp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dip"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="10dip"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:text="Type:"
+        android:textColor="#ffffffff"
+        android:textSize="12sp" />
+
+
+    <Spinner
+        android:id="@+id/ringtone_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:popupBackground="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:labelFor="@+id/filename"
+        android:text="Name:"
+        android:textColor="#ffffffff"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/filename"
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:inputType="text"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dip"
+        android:padding="10dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="100sp"
+            android:textColor="@color/black"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/updater_text"
+            android:text="Save" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

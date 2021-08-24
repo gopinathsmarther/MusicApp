@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/play"
+        android:title="Play"/>
+    <item
+        android:id="@+id/play_next"
+        android:title="Play next"/>
+
+    <item
+        android:id="@+id/add_to_playing_queue"
+        android:title="Add to playing queue"/>
+    <item
+        android:id="@+id/add_to_playlist"
+        android:title="Add to playlist..."/>
+    <item
+        android:id="@+id/tag_editor"
+        android:title="Tag editor"/>
+    <item
+        android:id="@+id/sort_order"
+        android:title="Sort Order"/>
+
+
+
+
+    <item
+        android:id="@+id/save_as_file"
+        android:title="Save as file"/>
+
+
+    <item
+        android:id="@+id/clear_playlist"
+        android:title="Clear Playlist"/>
+    <item
+        android:id="@+id/delete"
+        android:title="Delete"/>
+    <item
+        android:id="@+id/share"
+        android:title="Share"/>
+
+</menu>

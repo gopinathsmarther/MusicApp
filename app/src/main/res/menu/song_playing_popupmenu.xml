@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+        android:id="@+id/add_to_playlist"
+        android:title="Add to playlist..."/>
+    <item
+        android:id="@+id/tag_editor"
+        android:title="Tag editor"/>
+    <item
+        android:id="@+id/details"
+        android:title="Details"/>
+    <item
+        android:id="@+id/lyrics"
+        android:title="Lyrics"/>
+
+    <item
+        android:id="@+id/equalizer"
+        android:title="Equalizer"/>
+
+    <item
+        android:id="@+id/sleep_timer"
+        android:title="Sleep timer"/>
+    <item
+        android:id="@+id/drive_mode"
+        android:title="Drive mode"/>
+    <item
+        android:id="@+id/lockscreen"
+        android:title="Lockscreen"/>
+    <item
+        android:id="@+id/player_theme"
+        android:title="Player Theme"/>
+    <item
+        android:id="@+id/ringtone_cutter"
+        android:title="Ringtone Cutter"/>
+
+
+    <item
+        android:id="@+id/playback_speed"
+        android:title="Playback Speed"/>
+
+    <item
+        android:id="@+id/delete_from_device"
+        android:title="Delete from device"/>
+    <item
+        android:id="@+id/share"
+        android:title="Share"/>
+
+</menu>

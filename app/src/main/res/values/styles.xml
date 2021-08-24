@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:popupMenuStyle">@style/popupMenuStyle</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MenuItems" parent="AppTheme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/color_activated</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#f1f1f1
+        </item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/color_activated
+        </item>
+    </style>
+
+    <style name="seekBarStyle" parent="@android:style/Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@color/color_activated</item>
+        <item name="android:indeterminateDrawable">@color/light_grey</item>
+        <item name="android:minHeight">8dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+
+
+<!--    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">-->
+<!--        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>-->
+<!--    </style>-->
+    <style name="SlidingDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+<!--    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">-->
+<!--        <item name="behavior_peekHeight">500dp</item>-->
+<!--    </style>-->
+<!--    <style name="DialogTheme" parent="android:Theme.Dialog">-->
+
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">match_parent</item>-->
+<!--        <item name="android:windowNoTitle">true</item>-->
+<!--        <item name="android:windowFullscreen">true</item>-->
+<!--        <item name="android:windowIsFloating">true</item>-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+<!--        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>-->
+<!--        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>-->
+<!--        <item name="android:windowBackground">@android:color/transparent</item>-->
+<!--    </style>-->
+
+<!--    <style name="popupMenuStyle" parent="Widget.AppCompat.PopupMenu">-->
+<!--        <item name="android:popupBackground">@android:color/darker_gray</item>-->
+<!--    </style>-->
+
+    <style name="popupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:itemBackground">@color/grey_popup</item>
+    </style>
+    <style name="ToolbarBackground">
+        <item name="android:background">#222233</item>
+    </style>
+    <style name="MyTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    <style name="CustomAlertDialogStyle">
+    <item name="android:bottomBright">@color/alertbg</item>
+    <item name="android:bottomDark">@color/alertbg</item>
+    <item name="android:bottomMedium">@color/alertbg</item>
+    <item name="android:centerBright">@color/alertbg</item>
+    <item name="android:centerDark">@color/alertbg</item>
+    <item name="android:centerMedium">@color/alertbg</item>
+    <item name="android:fullBright">@color/alertbg</item>
+    <item name="android:fullDark">@color/alertbg</item>
+    <item name="android:topBright">@color/alertbg</item>
+    <item name="android:topDark">@color/alertbg</item>
+</style>
+</resources>

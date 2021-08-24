@@ -1,0 +1,128 @@
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/playlist_search_add_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="52dp"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:src="@drawable/music" />-->
+        <RelativeLayout
+            android:id="@+id/no_audio_image"
+            android:layout_width="44dp"
+            android:layout_height="44dp">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/light_grey"
+                android:alpha="0.6"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fa_music"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:fontFamily="@font/fontawesome"/>
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/currentSongpage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|start"
+            android:layout_marginStart="8dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/song_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:text="song"
+                android:textSize="10sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/song_artist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:text="unknown"
+                    android:layout_marginEnd="4dp"
+                    android:textSize="10sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fontawesome"
+                    android:gravity="center_vertical"
+                    android:text="@string/fa_circle"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="4dp"
+                    android:textSize="4sp" />
+                <TextView
+                    android:id="@+id/song_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:text="foldername"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/check_circle"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:tint="@color/white"
+                android:src="@drawable/radio_circle" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

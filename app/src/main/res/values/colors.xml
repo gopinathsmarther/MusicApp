@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#FFE57F</color>
+    <color name="sandal">#FFE57F</color>
+    <color name="black">#000000</color>
+    <color name="black_transparent">#95000000</color>
+    <color name="white">#ffffff</color>
+    <color name="light_white">#B2FFFFFF</color>
+    <color name="color_activated">#E6AD0F</color>
+    <color name="light_blue">#7FB7BF</color>
+    <color name="light_rose">#D096B2</color>
+    <color name="light_grey">#E1E1E1</color>
+    <color name="grey_e6">#e6e6e6</color>
+
+    <color name="grey">#9A9999</color>
+    <color name="gradient_green">#008A65</color>
+    <color name="gradient_blue">#006F80</color>
+    <color name="gradient_red">#D74151</color>
+    <color name="gradient_lightred">#A52E62</color>
+    <color name="gradient_orange">#D4731B</color>
+    <color name="gradient_lightrose">#BB495C</color>
+    <color name="dark_blue_gr">#012333</color>
+    <color name="dark_blue">#02171F</color>
+    <color name="green_blue">#14776F</color>
+    <color name="song_background">#613F3C</color>
+    <color name="song_background1">#574255</color>
+    <color name="equalizer_actionbar">#1E2652</color>
+    <color name="equalizer_color_bg">#181D3F</color>
+    <color name="virtualizer_color">#54146F</color>
+    <color name="virtualizer_color1">#49196A</color>
+    <color name="notification_black">#2F353D</color>
+    <color name="dark_grey">#5E5E60</color>
+    <color name="grey_popup">#43402B</color>
+    <color name="colorWindowBackground">#F2F5FC</color>
+    <color name="colorRipple">#0288d1</color>
+    <color name="alertbg">#cc000000</color>
+
+    <color name="waveform_selected">#33b5e5</color>
+    <color name="waveform_unselected">#195a72</color>
+    <color name="waveform_unselected_bkgnd_overlay">#0a242d</color>
+    <color name="selection_border">#ffffff</color>
+    <color name="playback_indicator">#ffff66</color>
+    <color name="grid_line">#66ffffff</color>
+    <color name="timecode">#ddffffdd</color>
+    <color name="timecode_shadow">#aa000000</color>
+    <color name="scan_blue">#3085B2</color>
+</resources>

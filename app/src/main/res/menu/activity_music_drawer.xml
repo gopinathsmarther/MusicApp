@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/remove_ads"
+        android:icon="@drawable/remove_ads"
+        android:title="@string/remove_ads" />
+    <item
+        android:id="@+id/themes"
+        android:icon="@drawable/themes"
+        android:title="@string/themes" />
+    <item
+        android:id="@+id/ringtone_cutter"
+        android:icon="@drawable/ringtone_cutter"
+        android:title="@string/ringtone_cutter" />
+    <item
+        android:id="@+id/sleep_timer"
+        android:icon="@drawable/sleep_timer"
+        android:title="@string/sleep_timer" />
+
+    <item
+        android:id="@+id/equalizer"
+        android:icon="@drawable/equaliser"
+        android:title="@string/equaliser" />
+    <item
+        android:id="@+id/drive_mode"
+        android:icon="@drawable/drive_mode"
+        android:title="@string/drive_mode" />
+    <item
+        android:id="@+id/hidden_folders"
+        android:icon="@drawable/hidden_folder"
+        android:title="@string/hidden_folder" />
+
+    <item
+        android:id="@+id/scan_media"
+        android:icon="@drawable/scan_media"
+        android:title="@string/scan_media" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/faq"
+        android:icon="@drawable/faq"
+        android:title="@string/faq" />
+
+
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/feedback"
+        android:title="@string/feedback" />
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/info"
+        android:title="@string/info" />
+
+    <item
+        android:id="@+id/quit"
+        android:icon="@drawable/info"
+        android:title="@string/quit" />
+</menu>

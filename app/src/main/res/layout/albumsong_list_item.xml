@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/song_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginStart="8dp"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <!--    <androidx.cardview.widget.CardView-->
+        <!--        android:layout_width="60dp"-->
+        <!--        android:layout_height="60dp"-->
+        <!--        app:cardCornerRadius="4dp"-->
+        <!--        app:cardElevation="0dp">-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/audio_image"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:visibility="gone"/>-->
+
+        <!--        <RelativeLayout-->
+        <!--            android:id="@+id/no_audio_image"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent">-->
+        <!--            <View-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="match_parent"-->
+        <!--                android:background="@color/light_grey"-->
+        <!--                android:alpha="0.6"/>-->
+        <!--            <TextView-->
+
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="@string/fa_music"-->
+        <!--                android:textSize="40sp"-->
+        <!--                android:gravity="center"-->
+        <!--                android:layout_centerInParent="true"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:fontFamily="@font/fontawesome"/>-->
+        <!--        </RelativeLayout>-->
+        <!--    </androidx.cardview.widget.CardView>-->
+        <TextView
+            android:id="@+id/album_song_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:text=""
+            android:paddingStart="8dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/audio_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:text=""
+            android:paddingStart="8dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/audio_authur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:text=""
+            android:paddingStart="8dp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/other_option"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/audio_image"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:background="?android:attr/actionBarItemBackground"
+            android:src="@drawable/ic_more_horizontal"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,262 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#43402B"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:text="Sort order"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_regular"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:id="@+id/ascending"
+        android:layout_marginTop="12dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ascending"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            >
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/radio_button"
+                android:tint="@color/white"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:id="@+id/descending"
+        android:layout_marginTop="12dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descending"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            >
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/white_stroke_circle"
+                android:tint="@color/white"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:id="@+id/artist"
+        android:layout_marginTop="12dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            >
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/white_stroke_circle"
+                android:tint="@color/white"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:id="@+id/album"
+        android:layout_marginTop="12dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Album"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            >
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/white_stroke_circle"
+                android:tint="@color/white"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:id="@+id/year"
+        android:layout_marginTop="12dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            >
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/white_stroke_circle"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:id="@+id/date_added"
+        android:layout_marginTop="12dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Added"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            >
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/white_stroke_circle"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:id="@+id/date_modified"
+        android:layout_marginTop="12dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date Modified"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            >
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/white_stroke_circle"
+                android:tint="@color/white"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:id="@+id/composer"
+        android:layout_marginTop="12dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Composer"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            >
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:tint="@color/white"
+                android:src="@drawable/white_stroke_circle"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

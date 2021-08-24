@@ -1,0 +1,104 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/background_of_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="16dp"
+    android:paddingStart="16dp"
+    android:paddingBottom="16dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="Playlist Duplicate Song"
+        android:layout_marginBottom="16dp"
+        />
+    <LinearLayout
+        android:id="@+id/ask_first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+
+        >
+        <ImageView
+            android:id="@+id/ask_first_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/radio_circle"
+            android:tint="@color/white"
+            android:layout_marginEnd="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="14sp"
+            android:gravity="center|start"
+            android:text="Ask Always"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/allow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+
+        >
+        <ImageView
+            android:id="@+id/allow_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/radio_circle"
+            android:tint="@color/white"
+            android:layout_marginEnd="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="14sp"
+            android:gravity="center|start"
+            android:text="Allow"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/never_allow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+
+        >
+        <ImageView
+            android:id="@+id/never_allow_img"
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/radio_circle"
+            android:tint="@color/white"
+            android:layout_marginEnd="16dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="14sp"
+            android:gravity="center|start"
+            android:text="Never Allow"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

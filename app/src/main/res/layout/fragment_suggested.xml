@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Fragments.SuggestedFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:id="@+id/my_top_tracks"
+                            android:layout_width="match_parent"
+                            android:layout_height="44dp"
+
+                            >
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:text="My top tracks"
+                                android:singleLine="true"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/my_top_tracks_see_all"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:text="See All"
+                                android:singleLine="true"
+                                android:textColor="@color/light_white"
+                                android:background="?android:attr/actionBarItemBackground"
+                                android:textSize="12sp"
+                                />
+                        </LinearLayout>
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/my_top_tracks_recycler"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:clipToPadding="false"
+                            android:layout_marginTop="4dp"
+                            android:visibility="gone"/>
+                        <LinearLayout
+                          android:id="@+id/favourites"
+                            android:layout_width="match_parent"
+                            android:layout_height="44dp"
+                            android:visibility="gone">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="@string/fa_heart"
+                                android:singleLine="true"
+                                android:textColor="#ff0000"
+                                android:fontFamily="@font/fontawesome"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:text="Favourites"
+                                android:singleLine="true"
+                                android:paddingStart="4dp"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/favourites_see_all"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:text="See All"
+                                android:singleLine="true"
+                                android:textColor="@color/light_white"
+                                android:background="?android:attr/actionBarItemBackground"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/favourites_recycler"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:clipToPadding="false"
+                            android:layout_marginTop="4dp"
+                            android:visibility="gone"/>
+                        <LinearLayout
+                            android:id="@+id/history"
+                            android:layout_width="match_parent"
+                            android:layout_height="44dp"
+                            android:visibility="gone">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:text="History"
+                                android:singleLine="true"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/history_see_all"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:text="See All"
+                                android:singleLine="true"
+                                android:textColor="@color/light_white"
+                                android:background="?android:attr/actionBarItemBackground"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/history_recycler"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:clipToPadding="false"
+                            android:layout_marginTop="4dp"
+                            android:visibility="gone"/>
+                        <LinearLayout
+                            android:id="@+id/last_added"
+                            android:layout_width="match_parent"
+                            android:layout_height="44dp"
+                            android:visibility="gone">
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:text="Last added"
+                                android:singleLine="true"
+                                android:paddingStart="4dp"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:id="@+id/last_added_see_all"
+                                android:layout_width="40dp"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:text="See All"
+                                android:singleLine="true"
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:background="?android:attr/actionBarItemBackground"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/last_added_recycler"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:clipToPadding="false"
+                            android:layout_marginTop="4dp"
+                            android:visibility="gone"/>
+                    </LinearLayout>
+
+                </androidx.core.widget.NestedScrollView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

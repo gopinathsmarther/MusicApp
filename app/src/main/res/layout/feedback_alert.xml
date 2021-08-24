@@ -1,0 +1,68 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="8dp"
+    android:id="@+id/feedback_layout"
+    android:background="@drawable/rounded_rectangle_white"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="FeedBack"
+        android:fontFamily="@font/helveticaneue_medium"
+        />
+    <EditText
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:gravity="top"
+        android:textSize="14sp"
+        android:hint="Enter your feedback or suggestions here..."
+        android:layout_marginHorizontal="8dp"
+        android:backgroundTint="@color/white"
+        android:inputType="text"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+       android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:layout_marginEnd="12dp"
+        >
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="Cancel"
+            android:fontFamily="@font/helveticaneue_medium"
+            android:layout_marginEnd="16dp"
+            android:textAllCaps="true"
+            />
+        <TextView
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="Submit"
+            android:fontFamily="@font/helveticaneue_medium"
+            android:textAllCaps="true"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,267 @@
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/background_of_layout"
+    android:paddingEnd="16dp"
+    android:paddingBottom="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Details"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="File name: "
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+        <TextView
+            android:id="@+id/song_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="file.mp3"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/white"
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="File path: "
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+        <TextView
+            android:id="@+id/song_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="/storage/hsgj/etc.mp3"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Size: "
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+        <TextView
+            android:id="@+id/song_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="10 MB"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Format: "
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+        <TextView
+            android:id="@+id/song_format"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="AAC"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Length: "
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+        <TextView
+            android:id="@+id/song_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="0:19"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Bitrate: "
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+        <TextView
+            android:id="@+id/song_bitrateRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="131 kb/s"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Sampling rate: "
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+        <TextView
+            android:id="@+id/song_samplingRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="44100Hz"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="end"
+        >
+
+        <TextView
+            android:id="@+id/song_tag_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Edit"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+            android:layout_marginEnd="16dp"
+
+            />
+        <TextView
+            android:id="@+id/song_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Ok"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

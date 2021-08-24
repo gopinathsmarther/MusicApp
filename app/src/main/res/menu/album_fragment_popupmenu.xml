@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/play"
+        android:title="Play"/>
+    <item
+        android:id="@+id/play_next"
+        android:title="Play next"/>
+
+    <item
+        android:id="@+id/add_to_playing_queue"
+        android:title="Add to playing queue"/>
+    <item
+        android:id="@+id/add_to_playlist"
+        android:title="Add to playlist..."/>
+    <item
+        android:id="@+id/rename"
+        android:title="Rename"/>
+    <item
+        android:id="@+id/tag_editor"
+        android:title="Tag editor"/>
+    <item
+        android:id="@+id/go_to_artist"
+        android:title="Go to artist"/>
+
+
+
+<!-- <item-->
+<!--        android:id="@+id/details"-->
+<!--        android:title="Details"/>-->
+    <item
+        android:id="@+id/set_as_ringtone"
+        android:title="Add to home screen"/>
+<!--    <item-->
+<!--        android:id="@+id/ringtone_cutter"-->
+<!--        android:title="Ringtone Cutter"/>-->
+ <item
+        android:id="@+id/delete_from_device"
+        android:title="Delete from device"/>
+    <item
+        android:id="@+id/share"
+        android:title="Share"/>
+
+</menu>

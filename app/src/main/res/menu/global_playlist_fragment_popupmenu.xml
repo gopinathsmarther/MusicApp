@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/new_playlist"
+        android:title="New Playlist..."/>
+
+    <item
+        android:id="@+id/back_up_playlist"
+        android:title="Backup Playlist"
+        android:icon="@drawable/ic_play_arrow_black_24dp"/>
+    <item
+        android:id="@+id/restore_playlist"
+        android:title="Restore Playlist"
+        android:icon="@drawable/ic_play_arrow_black_24dp"/>
+    <item
+        android:id="@+id/show_smart_playlist"
+        android:title="Show smart playlist "/>
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/equalizer"
+        android:title="Equalizer"/>
+    <item
+        android:id="@+id/share_this_app"
+        android:title="Share This App"/>
+</menu>
